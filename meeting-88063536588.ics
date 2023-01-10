@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+LAST-MODIFIED:20221105T024525Z
+TZURL:http://www.tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20221214T012742Z
+DTSTART;TZID=Asia/Kolkata:20221214T070000
+DTEND;TZID=Asia/Kolkata:20221214T090000
+SUMMARY:AWS DevOps 14 Dec 2022 batch Demo
+RRULE:FREQ=DAILY;WKST=SU;UNTIL=20221216T033000;INTERVAL=1
+UID:ZOOM88063536588
+TZID:Asia/Kolkata
+DESCRIPTION:Nagasrinivasa peri is inviting you to a scheduled Zoom meetin
+ g.\n\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/88063536588?pwd=V3VUV
+ mhNbTRtRk5NaWlBUHg3MDZVUT09\n\nMeeting ID: 880 6353 6588\nPasscode: 8343
+ 91\nOne tap mobile\n+12532050468\,\,88063536588#\,\,\,\,*834391# US\n+12
+ 532158782\,\,88063536588#\,\,\,\,*834391# US (Tacoma)\n\nDial by your lo
+ cation\n        +1 253 205 0468 US\n        +1 253 215 8782 US (Tacoma)\
+ n        +1 346 248 7799 US (Houston)\n        +1 669 444 9171 US\n     
+    +1 719 359 4580 US\n        +1 720 707 2699 US (Denver)\n        +1 5
+ 07 473 4847 US\n        +1 564 217 2000 US\n        +1 646 558 8656 US (
+ New York)\n        +1 646 931 3860 US\n        +1 689 278 1000 US\n     
+    +1 301 715 8592 US (Washington DC)\n        +1 305 224 1968 US\n     
+    +1 309 205 3325 US\n        +1 312 626 6799 US (Chicago)\n        +1 
+ 360 209 5623 US\n        +1 386 347 5053 US\nMeeting ID: 880 6353 6588\n
+ Passcode: 834391\nFind your local number: https://us06web.zoom.us/u/kndD
+ NEYCn\n\n
+LOCATION:https://us06web.zoom.us/j/88063536588?pwd=V3VUVmhNbTRtRk5NaWlBUH
+ g3MDZVUT09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
